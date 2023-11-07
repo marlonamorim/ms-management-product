@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MGM.MS.Management.Product.Infrastructure\MGM.MS.Management.Product.Infrastructure.csproj" />
+    <ProjectReference Include="..\MGM.MS.Management.Product.Notification\MGM.MS.Management.Product.Notification.csproj" />
+    <ProjectReference Include="..\MGM.MS.Management.Product.Services\MGM.MS.Management.Product.Services.csproj" />
+  </ItemGroup>
+
+</Project>
